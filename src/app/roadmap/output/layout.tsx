@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import RoadmapContent from "./RoadmapContent";
+import RoadmapContent from "./page";
 
 export default function OutputPage() {
   return (
