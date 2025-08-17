@@ -1,0 +1,39 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.2",
+    "@ai-sdk/react": "^2.0.2",
+    "@google/genai": "^1.12.0",
+    "@google/generative-ai": "^0.24.1",
+    "@tanstack/react-query": "^5.84.1",
+    "@tanstack/react-query-devtools": "^5.84.1",
+    "ai": "^5.0.2",
+    "lucide-react": "^0.539.0",
+    "next": "15.3.4",
+    "openai": "^5.11.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "reactflow": "^11.11.4",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.179.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
