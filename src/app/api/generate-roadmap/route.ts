@@ -33,7 +33,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Get the generative model
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     // Create a comprehensive prompt for the model
     const prompt = `
@@ -95,3 +95,4 @@ export async function POST(req: NextRequest) {
     );
   }
 }
+
